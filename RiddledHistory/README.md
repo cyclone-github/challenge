@@ -18,7 +18,9 @@ Programs Used During Challenge:
 - Ghidra (or equivalent)
 
 Notes:
-- I would recommend running this in a linux VM (debian / ubuntu) along with with hashcat, libreoffice & Ghidra installed. Only a modest GPU is required for the hash cracking challenges, but you'll need to put on your thinking cap for some of the riddles and reverse engineering challenge.
+- I would recommend running this in a linux VM (debian / ubuntu) along with with hashcat, libreoffice & Ghidra installed. 
+- While you can complete all 4 challenges solely using Windows, you will not be able to run "july4th.bin" without some sort of linux terminal. However, running this binary is not required to complete the challenge. Source code to this binary is located in the walkthrough.zip.
+- Only a modest GPU is required for the hash cracking challenges, but you'll need to put on your thinking cap for some of the riddles and reverse engineering challenge.
 
 Version History:
 - 2023-5-5; initial github release; 
