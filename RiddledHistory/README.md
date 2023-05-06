@@ -8,12 +8,17 @@ Experience Required:
 
 Programs Used During Challenge:
 - hashcat or jtr
+- zip2john, office2john, pdf2john 
+- - online version: https://hashes.com/en/johntheripper
 - libreoffice
 - notepad (or equivalent)
 - pdf viewer
 - 7zip (or equivalent)
 - linux (for last challenge)
 - Ghidra (or equivalent)
+
+Notes:
+- I would recommend running this in a linux VM (debian / ubuntu) along with with hashcat, libreoffice & Ghidra installed. Only a modest GPU is required for the hash cracking challenges, but you'll need to put on your thinking cap for some of the riddles and reverse engineering challenge.
 
 Version History:
 - 2023-5-5; initial github release; 
