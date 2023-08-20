@@ -1,4 +1,6 @@
 ### Riddled History
+![image](https://i.imgur.com/nBwtGaV.png)
+
 - A fun challenge consisting of 4 main sets of challenges, each with their own set of hints, riddles and quests. 
 - Challenge contains hints of fairy tails, classic movies and American history, all incorporated into hashes, encrypted files, and finishes strong with a simple, but challenging, reverse engineering "capture the flag".
 
@@ -9,7 +11,7 @@ Experience Required:
 Programs Used During Challenge:
 - hashcat or jtr
 - zip2john, office2john, pdf2john 
-- - online version: https://hashes.com/en/johntheripper
+  - online version: https://hashes.com/en/johntheripper
 - libreoffice
 - notepad (or equivalent)
 - pdf viewer
