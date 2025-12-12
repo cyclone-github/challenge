@@ -27,6 +27,44 @@ e8cbf88eeadc69f74c63bb3f0d5854c27edef862bf2aea5d3882dd8d14c4a1f2
 
 `Notes`: 
 * While the plaintext in this challenge are not "Christmas themed", the challenge and wordlist is a Christmas present from me to the hashpwn community
+* New hints will be dropped periodically until the final answer is revealed on Christmas Day
+* If anyone would like to post their progress, feel free to post a link on https://paste.hashpwn.net
 
 `Hints`: 
-* https://forum.hashpwn.net/post/246
+1. An elf told me those hashes looked like...
+
+||`sha256`||
+
+2. Someone was able to crack a few hashes using the following plaintexts...
+
+|| `github.com`
+`cyclone-github`
+`spider` ||
+
+3. `download_link.zip` hash:
+
+||`$zip2$*0*1*0*5ae1707141474c26*cc45*74*7cc15c71ad2d38964f1259af273b1a7f106a88007c7e901a15e893421da58f57d17561eca1970bd633d423647beebaab964701f71b624a6d958be8916e4ae99067a8dc8819814a7ac5a131b44b69edb0c023a8dafc58cb3422e8f495bf653be043127bcedc9cea8b6c39ae2d5242611008c87f7e*79ec78301e125d5f9c62*$/zip2$`||
+
+4. The elves have been hard at work trying to decode this HEX string. I hear [rehex](https://github.com/Cynosureprime/rling) and [hashgen](https://github.com/cyclone-github/hashgen) can convert these back to plaintext.
+
+||`https://github.com/Cynosureprime/rling`
+`https://github.com/cyclone-github/hashgen`
+`$HEX[68747470733a2f2f666f72756d2e6861736870776e2e6e65742f706f73742f3638]`||
+
+5. Hard work pays off! Here's the dehexed string. But, is this a...
+
+||`https://forum.hashpwn.net/post/68`||
+
+6. 'Twas the night before Christmas, on hashpwn's site...
+
+||`'Twas the night before Christmas, on hashpwn's site,`
+`The forum was fueled by coffee all night.`
+`As the wordlist drew nearer, one puzzle away,`
+`All crackers pressed on, determined to stay.`
+`Hints had been posted, the challenge laid bare,`
+`One final quest, Exclusive or — but where?`||
+
+---
+
+Challenge URL:
+https://forum.hashpwn.net/post/246
